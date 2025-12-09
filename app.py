@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 st.set_page_config(page_title="Live Object Detection")
 
-st.title("📸 Live Object Detection (Front / Back Camera)")
+st.title("📸 Live Object Detection")
 
 # Load YOLO model
 @st.cache_resource
