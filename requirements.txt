@@ -1,4 +1,6 @@
 streamlit
-ultralytics
+opencv-python-headless==4.7.0.72
 numpy
-opencv-python-headless
+Pillow
+tensorflow==2.12.0
+protobuf==3.20.*
