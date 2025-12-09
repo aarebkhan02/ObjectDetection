@@ -1,12 +1,4 @@
 import streamlit as st
-import sys
-print("Python:", sys.version)
-print("Installed packages:")
-import pkg_resources
-print([p.key for p in pkg_resources.working_set])
-
-
-
 import cv2
 from ultralytics import YOLO
 
