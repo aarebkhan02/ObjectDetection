@@ -9,7 +9,7 @@ st.title("📸 Live Object Detection")
 # Load YOLO model
 @st.cache_resource
 def load_model():
-    return YOLO("best.pt")
+    return YOLO("bestnew.pt")
 
 model = load_model()
 
